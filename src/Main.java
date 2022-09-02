@@ -12,5 +12,7 @@ public class Main {
 
         System.out.println(fullName.contains("ё"));
         System.out.println(fullName.contains("е"));
+        System.out.println(fullName.split("ё").length);
+        System.out.println(fullName.split("е").length);
     }
 }
